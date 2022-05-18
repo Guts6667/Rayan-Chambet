@@ -1,0 +1,448 @@
+
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff') format('woff'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2') format('woff2'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff') format('woff'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf') format('truetype');
+         font-weight: 200;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2') format('woff2'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff') format('woff'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2') format('woff2'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff') format('woff'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff2') format('woff2'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff') format('woff'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff') format('woff'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2') format('woff2'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff') format('woff'),
+         url('./fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+
+  $green : #62825D;
+
+  //------------------------------------------------------------------------------------------------------------
+
+  body{
+      background-color: black;
+      z-index: 0;
+  }
+  
+  *{
+      font-family: 'ClashDisplay-Variable','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+  }
+
+  .name{
+      font-family: 'ClashDisplay-Medium','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+  }
+
+//------------------------------------------------------------------------------------------------------------
+
+  .container{
+      margin: 2%;
+      &__header{
+        margin-top: 5%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      &__intro{
+          margin-top: 100px;
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+          h1{
+            font-family: 'ClashDisplay-Medium','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 35px;
+            margin: 0;
+        }
+        .legend{
+            font-family: 'ClashDisplay-Medium','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+      }
+      h2{
+          font-family: 'ClashDisplay-Semibold','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: 35px;
+          margin: 0;
+      }
+      &__project{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  }
+
+  .button-menu{
+      position: fixed;
+      right: 0;
+      margin-right: 2%;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+ 
+      
+       &__burger{
+           background-color: white;
+           height: 2px;
+           width: 30px;
+           margin: 5px;
+           
+       }
+  }
+//------------------------------------------------------------------------------------------------------------
+  
+  // White delimitation line
+  .line{
+      width: 95%;
+      height: 2px;
+      background: white;
+      margin: auto;
+  }
+
+  @media only screen and (min-width: 600px){
+	.line{
+        width: 55%;
+        height: 2px;
+        background: white;
+        margin: auto;
+    }
+}
+//------------------------------------------------------------------------------------------------------------
+
+// arrow-down image
+.box-arrow{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50%;
+}
+.arrow-down{
+    width: auto;
+    height: 50px;
+}
+//------------------------------------------------------------------------------------------------------------
+
+
+  .button-cross-up{
+    transform: translate(-0%, -50%) rotate(-45deg);
+    rotate: -45deg;
+    margin: 0;
+  }
+  .button-cross-down{
+    transform: translate(-0%,-100%) rotate(45deg);
+    margin: 0;
+  }
+
+//------------------------------------------------------------------------------------------------------------
+
+.component{
+
+    &__project{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        &-aside{
+          margin: auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          height: 250px;
+          width: 80%;
+          text-align: center;
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+
+          strong{
+            font-weight: 500;
+          }
+          strong:first-of-type{
+            color: $green;
+          }
+
+          .button-link{
+            margin: auto; 
+            margin-bottom: 2%;
+            padding: 2px 20px;
+            min-width: 18%;
+            text-align: center;
+            border: 1px solid #5b454570;
+            border-radius: 30px;
+            
+            box-shadow: 2px 2px 15px -2px #8B8B8B;
+            h3{
+              color: white;
+              font-weight: 500;
+            }
+            a{
+              text-decoration: none;
+            }
+            &:hover{
+              background: black;
+              box-shadow: 2px 2px 15px 1px #8B8B8B;
+
+            }
+            &:active{
+              box-shadow: 2px 2px 15px -2px $green;
+              border: $green;
+            }
+          }
+        }
+    }
+}
+.box-img{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    // object-fit: contain;
+    &__img1{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+        // width: 90%;
+        // height: auto;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .box-img{
+        width: 60%;
+        height: auto;
+        // &__img1{
+        //     width: 65%;
+        //     height: auto;
+        // }
+    }
+}
+
+
+.hidden{
+    display: none;
+}
+
+html{
+    cursor: url('./images/icons/pngwing.png') , default;
+}
+
+.icon-carousel{
+  width: 30%;
+  font-size: 30px;
+  // text-align: center;
+  .fas{
+    color: #bfbdbd33;
+    opacity: .6;
+    text-shadow: 0px 0px 10px #ffe5e5;
+    &:hover{
+      color: #d1ceced4;
+      opacity: .8;
+      text-shadow: 0px 0px 10px #ffe5e5;
+      font-size: 35px;
+    }
+  }
+  &:first-of-type{
+    text-align: right;
+  }
+  &:last-of-type{
+    text-align: left;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+/* Icon 1 */
+
+ #nav-icon3 {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  margin-right: 2%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+ #nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  background: white;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+
+/* Icon 3 */
+
+// #nav-icon3 span:nth-child(1) {
+//   top: -6px;
+// }
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+  top: 15px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+  top: 20px;
+  width: 0%;
+
+}
+
+#nav-icon3.open span:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.slide-left {
+	        animation: slide-left 0.26s ease-in ;
+}
+.slide-left2 {
+  animation: slide-left2 0.26s ease-in ;
+
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+    width: 100%;
+  }
+  10% {
+    transform: translateX(-10px);
+    opacity: 0.9;
+    // width: 85%;
+  }
+  // 20% {
+  //   transform: translateX(-20px);
+  //   opacity: 0.9;
+  //   // width: 65%;
+  // }
+  50% {
+    transform: translateX(-50px);
+    opacity: 0.5;
+    width: 45%;
+  }
+
+  // 80% {
+  //   transform: translateX(-80px);
+  //   opacity: 0.2;
+  //   // width: 40%;
+  // }
+  100% {
+    transform: translateX(-100px);
+    width: 10%;
+
+  }
+}
+@keyframes slide-left2 {
+  0% {
+    width: 10%;
+    transform: translateX(100px);
+    opacity: 0.2;
+  }
+  10% {
+    transform: translateX(80px);
+    opacity: 0.4;
+    // width: 40%;
+  }
+  // 20% {
+  //   transform: translateX(50px);
+  //   opacity: 0.5;
+  //   // width: 45%;
+  // }
+  50% {
+    transform: translateX(20px);
+    opacity: 0.7;
+    // width: 65%;
+  }
+
+  // 80% {
+  //   transform: translateX(10px);
+  //   opacity: 0.8;
+  //   // width: 85%;
+  // }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+    width: 100%;
+
+  }
+}
