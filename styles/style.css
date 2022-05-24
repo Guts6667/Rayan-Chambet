@@ -1,54 +1,54 @@
 @font-face {
-  font-family: 'ClashDisplay-Variable';
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.ttf") format("truetype");
+  font-family: "ClashDisplay-Variable";
+  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff2") format("woff2"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff") format("woff"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.ttf") format("truetype");
   font-weight: 200 700;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Extralight';
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf") format("truetype");
+  font-family: "ClashDisplay-Extralight";
+  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2") format("woff2"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff") format("woff"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf") format("truetype");
   font-weight: 200;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Light';
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf") format("truetype");
+  font-family: "ClashDisplay-Light";
+  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2") format("woff2"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff") format("woff"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Regular';
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf") format("truetype");
+  font-family: "ClashDisplay-Regular";
+  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2") format("woff2"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff") format("woff"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Medium';
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-family: "ClashDisplay-Medium";
+  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff") format("woff"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Semibold';
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-family: "ClashDisplay-Semibold";
+  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff2") format("woff2"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff") format("woff"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ClashDisplay-Bold';
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.ttf") format("truetype");
+  font-family: "ClashDisplay-Bold";
+  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff") format("woff"), url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -60,12 +60,12 @@ body {
 }
 
 * {
-  font-family: 'ClashDisplay-Variable','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "ClashDisplay-Variable", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
 }
 
 .name {
-  font-family: 'ClashDisplay-Medium','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "ClashDisplay-Medium", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
@@ -98,18 +98,18 @@ body {
 }
 
 .container__intro h1 {
-  font-family: 'ClashDisplay-Medium','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "ClashDisplay-Medium", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 35px;
   margin: 0;
 }
 
 .container__intro .legend {
-  font-family: 'ClashDisplay-Medium','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "ClashDisplay-Medium", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 25px;
 }
 
 .container h2 {
-  font-family: 'ClashDisplay-Semibold','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "ClashDisplay-Semibold", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 35px;
   margin: 0;
 }
@@ -124,6 +124,46 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.container footer {
+  margin-top: 100px;
+}
+
+.container__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 60%;
+  margin: auto;
+  font-size: 25px;
+}
+
+.container__social i {
+  padding: 10px;
+}
+
+.container__social i:hover {
+  font-size: 30px;
+}
+
+.container__social .github:hover {
+  text-shadow: 2px 2px 3px  #5855bb;
+}
+
+.container__social .linkedin:hover {
+  text-shadow: 2px 2px 3px  #0e76a8;
+}
+
+.container__social .mail:hover {
+  text-shadow: 2px 2px 3px #62825d;
+}
+
+.container__social .phone:hover {
+  text-shadow: 2px 2px 3px #3FC72F;
 }
 
 .button-menu {
@@ -235,19 +275,32 @@ body {
 }
 
 .component__project-aside strong:first-of-type {
-  color: #62825D;
+  color: #62825d;
 }
 
 .component__project-aside .button-link {
-  margin: auto;
+  width: 75%;
+  height: 45px;
   margin-bottom: 2%;
-  padding: 2px 20px;
-  min-width: 18%;
   text-align: center;
   border: 1px solid #5b454570;
   border-radius: 30px;
-  -webkit-box-shadow: 2px 2px 15px -2px #8B8B8B;
-          box-shadow: 2px 2px 15px -2px #8B8B8B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 2px 2px 15px -2px #8b8b8b;
+          box-shadow: 2px 2px 15px -2px #8b8b8b;
+}
+
+.component__project-aside .button-link button {
+  background: none;
+  border: none;
 }
 
 .component__project-aside .button-link h3 {
@@ -261,14 +314,24 @@ body {
 
 .component__project-aside .button-link:hover {
   background: black;
-  -webkit-box-shadow: 2px 2px 15px 1px #8B8B8B;
-          box-shadow: 2px 2px 15px 1px #8B8B8B;
+  -webkit-box-shadow: 2px 2px 15px 1px #8b8b8b;
+          box-shadow: 2px 2px 15px 1px #8b8b8b;
 }
 
 .component__project-aside .button-link:active {
-  -webkit-box-shadow: 2px 2px 15px -2px #62825D;
-          box-shadow: 2px 2px 15px -2px #62825D;
-  border: #62825D;
+  -webkit-box-shadow: 2px 2px 15px -2px #62825d;
+          box-shadow: 2px 2px 15px -2px #62825d;
+  border: #62825d;
+}
+
+@media only screen and (min-width: 600px) {
+  .component__project-aside .box-img {
+    width: 90%;
+    height: auto;
+  }
+  .component__project-aside .button-link {
+    width: 35%;
+  }
 }
 
 .box-img {
@@ -291,12 +354,36 @@ body {
   }
 }
 
+.box-profil {
+  margin: auto;
+  width: 55%;
+  height: auto;
+  margin-top: 10%;
+}
+
+.box-profil img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+}
+
+@media only screen and (min-width: 600px) {
+  .box-profil {
+    width: 25%;
+    height: auto;
+  }
+}
+
 .hidden {
   display: none;
 }
 
 html {
-  cursor: url("./images/icons/pngwing.png"), default;
+  cursor: url("/images/icons/pngwing.png"), default;
 }
 
 .icon-carousel {
@@ -306,13 +393,13 @@ html {
 
 .icon-carousel .fas {
   color: #bfbdbd33;
-  opacity: .6;
+  opacity: 0.6;
   text-shadow: 0px 0px 10px #ffe5e5;
 }
 
 .icon-carousel .fas:hover {
   color: #d1ceced4;
-  opacity: .8;
+  opacity: 0.8;
   text-shadow: 0px 0px 10px #ffe5e5;
   font-size: 35px;
 }
@@ -346,8 +433,8 @@ html {
   justify-content: center;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
   position: fixed;
   right: 0;
@@ -369,12 +456,12 @@ html {
   background: white;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
-/* Icon 3 */
-#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+#nav-icon3 span:nth-child(2),
+#nav-icon3 span:nth-child(3) {
   top: 15px;
 }
 
@@ -391,113 +478,5 @@ html {
 #nav-icon3.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
-}
-
-.slide-left {
-  -webkit-animation: slide-left 0.26s ease-in;
-          animation: slide-left 0.26s ease-in;
-}
-
-.slide-left2 {
-  -webkit-animation: slide-left2 0.26s ease-in;
-          animation: slide-left2 0.26s ease-in;
-}
-
-@-webkit-keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    width: 100%;
-  }
-  10% {
-    -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
-    opacity: 0.9;
-  }
-  50% {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
-    opacity: 0.5;
-    width: 45%;
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-    width: 10%;
-  }
-}
-
-@keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    width: 100%;
-  }
-  10% {
-    -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
-    opacity: 0.9;
-  }
-  50% {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
-    opacity: 0.5;
-    width: 45%;
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-            transform: translateX(-100px);
-    width: 10%;
-  }
-}
-
-@-webkit-keyframes slide-left2 {
-  0% {
-    width: 10%;
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-    opacity: 0.2;
-  }
-  10% {
-    -webkit-transform: translateX(80px);
-            transform: translateX(80px);
-    opacity: 0.4;
-  }
-  50% {
-    -webkit-transform: translateX(20px);
-            transform: translateX(20px);
-    opacity: 0.7;
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-    opacity: 1;
-    width: 100%;
-  }
-}
-
-@keyframes slide-left2 {
-  0% {
-    width: 10%;
-    -webkit-transform: translateX(100px);
-            transform: translateX(100px);
-    opacity: 0.2;
-  }
-  10% {
-    -webkit-transform: translateX(80px);
-            transform: translateX(80px);
-    opacity: 0.4;
-  }
-  50% {
-    -webkit-transform: translateX(20px);
-            transform: translateX(20px);
-    opacity: 0.7;
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-    opacity: 1;
-    width: 100%;
-  }
 }
 /*# sourceMappingURL=style.css.map */
