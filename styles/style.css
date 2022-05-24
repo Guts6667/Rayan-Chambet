@@ -166,6 +166,52 @@ body {
   text-shadow: 2px 2px 3px #3FC72F;
 }
 
+.container__form {
+  margin: auto;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  width: 90%;
+}
+
+.container__form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.container__form button {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container__form button:hover {
+  background: black;
+  -webkit-box-shadow: 2px 2px 15px 1px #8b8b8b;
+          box-shadow: 2px 2px 15px 1px #8b8b8b;
+}
+
 .button-menu {
   position: fixed;
   right: 0;
