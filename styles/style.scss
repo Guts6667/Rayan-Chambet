@@ -1,10 +1,10 @@
 @font-face {
   font-family: "ClashDisplay-Variable";
-  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff2")
+  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff2")
       format("woff2"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.woff")
       format("woff"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.ttf")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Variable.ttf")
       format("truetype");
   font-weight: 200 700;
   font-display: swap;
@@ -13,11 +13,11 @@
 
 @font-face {
   font-family: "ClashDisplay-Extralight";
-  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2")
+  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2")
       format("woff2"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff")
       format("woff"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf")
       format("truetype");
   font-weight: 200;
   font-display: swap;
@@ -26,11 +26,11 @@
 
 @font-face {
   font-family: "ClashDisplay-Light";
-  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2")
+  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2")
       format("woff2"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff")
       format("woff"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf")
       format("truetype");
   font-weight: 300;
   font-display: swap;
@@ -39,11 +39,11 @@
 
 @font-face {
   font-family: "ClashDisplay-Regular";
-  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2")
+  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2")
       format("woff2"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff")
       format("woff"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf")
       format("truetype");
   font-weight: 400;
   font-display: swap;
@@ -52,11 +52,11 @@
 
 @font-face {
   font-family: "ClashDisplay-Medium";
-  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2")
+  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2")
       format("woff2"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff")
       format("woff"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.ttf")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.ttf")
       format("truetype");
   font-weight: 500;
   font-display: swap;
@@ -65,11 +65,11 @@
 
 @font-face {
   font-family: "ClashDisplay-Semibold";
-  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff2")
+  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff2")
       format("woff2"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.woff")
       format("woff"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.ttf")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Semibold.ttf")
       format("truetype");
   font-weight: 600;
   font-display: swap;
@@ -78,11 +78,11 @@
 
 @font-face {
   font-family: "ClashDisplay-Bold";
-  src: url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2")
+  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2")
       format("woff2"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff")
       format("woff"),
-    url("/fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.ttf")
+    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.ttf")
       format("truetype");
   font-weight: 700;
   font-display: swap;
@@ -90,7 +90,7 @@
 }
 
 $green: #62825d;
-$mail: linear-gradient(to right top, #051937, #00354e, #005059, #2a6a5c, #62825d);
+
 //------------------------------------------------------------------------------------------------------------
 
 body {
