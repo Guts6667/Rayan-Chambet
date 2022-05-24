@@ -1,25 +1,22 @@
-
-
-console.log(btnMenu.children);
-
-
-btnMenu.addEventListener('click', (e) => {
-    e.preventDefault();
-    if(!btnMenu.firstElementChild.classList.contains('button-cross-up') && !btnMenu.lastElementChild.classList.contains('button-cross-down')){
-        menuToCross()
-    }
-    else{
-        btnMenu.firstElementChild.classList.remove('button-cross-up');
-        btnMenu.lastElementChild.classList.remove('button-cross-down');
-    }  
-})
-
-
-const menuToCross = () => {
-    btnMenu.firstElementChild.classList.add('button-cross-up');
-    btnMenu.lastElementChild.classList.add('button-cross-down');
-}
+// Function for button animation
+// const menuToCross = () => {
+//     btnMenu.firstElementChild.classList.add('button-cross-up');
+//     btnMenu.lastElementChild.classList.add('button-cross-down');
+// }
 
 navicon.addEventListener('click', () =>{
     navicon.classList.toggle('open');
+    nav.classList.toggle('hidden');
 } )
+
+navOptions.forEach(navOption => {
+    navOption.addEventListener('click', () => {
+        nav.classList.add('hidden')
+        if(nav.classList.contains('hidden') && navicon.classList.contains('open')){
+            navicon.classList.toggle('open');
+        }
+    })
+})
+
+
+

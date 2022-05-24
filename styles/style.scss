@@ -11,44 +11,44 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "ClashDisplay-Extralight";
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2")
-      format("woff2"),
-    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff")
-      format("woff"),
-    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf")
-      format("truetype");
-  font-weight: 200;
-  font-display: swap;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "ClashDisplay-Extralight";
+//   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2")
+//       format("woff2"),
+//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff")
+//       format("woff"),
+//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf")
+//       format("truetype");
+//   font-weight: 200;
+//   font-display: swap;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: "ClashDisplay-Light";
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2")
-      format("woff2"),
-    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff")
-      format("woff"),
-    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf")
-      format("truetype");
-  font-weight: 300;
-  font-display: swap;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "ClashDisplay-Light";
+//   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2")
+//       format("woff2"),
+//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff")
+//       format("woff"),
+//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf")
+//       format("truetype");
+//   font-weight: 300;
+//   font-display: swap;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: "ClashDisplay-Regular";
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2")
-      format("woff2"),
-    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff")
-      format("woff"),
-    url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf")
-      format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "ClashDisplay-Regular";
+//   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2")
+//       format("woff2"),
+//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff")
+//       format("woff"),
+//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf")
+//       format("truetype");
+//   font-weight: 400;
+//   font-display: swap;
+//   font-style: normal;
+// }
 
 @font-face {
   font-family: "ClashDisplay-Medium";
@@ -147,6 +147,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
   }
   footer{
     margin-top: 100px;
@@ -188,19 +190,58 @@ body {
       }
     }
   }
+  &__about{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 15%;
+    aside{
+      margin: auto;
+      width: 60%;
+      margin-top: 50px;
+      text-align: center;
+    }
+  }
+  &__contact{
+    margin-top: 10%;
+    &-description{
+      margin: auto;
+      margin-top: 10%;
+    }
+  }
   &__form{
     margin: auto;
-    margin-top: 10%;
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 90%;
-    
+
+
     &-input{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       margin-top: 10px;
+      font-size: 16px;
+      font-weight: 500;;
+      input{
+        border-radius: 15px;
+        border: none;
+        color: black;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 500;;
+      }
+      textarea{
+        border-radius: 15px;
+        border: none;
+        color: black;
+        padding: 8px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: 500;;
+      }
      
     }
     button{
@@ -213,11 +254,17 @@ body {
       background: none;
       font-size: 18px;
       font-weight: 500;
+      cursor: pointer;
       &:hover {
         background: black;
         box-shadow: 2px 2px 15px 1px #8b8b8b;
       }
     }
+  }
+}
+@media only screen and (min-width: 600px){
+  .container__form{
+    width: 60%;
   }
 }
 
@@ -477,4 +524,49 @@ html {
 
 #nav-icon3.open span:nth-child(3) {
   transform: rotate(-45deg);
+}
+
+
+nav{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  padding-top: 40%;
+
+  
+  .line{
+    height: 2px;
+    background-color: white;
+    margin: 0;
+    margin-bottom: 10%;
+
+  }
+
+  a{
+    text-decoration: none;
+    &:hover{
+      text-shadow: 1px 1px 2px black;
+      color: black;
+    }
+  }
+  h2{
+    &:hover{
+      text-shadow: 0px 0px 1px white;
+      color: black;
+    }
+  }
+
+}
+@media only screen and (min-width: 600px){
+  nav{
+    padding-top: 0;
+    align-items: center;
+    justify-content: center;
+  }
 }

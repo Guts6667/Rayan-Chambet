@@ -7,30 +7,6 @@
 }
 
 @font-face {
-  font-family: "ClashDisplay-Extralight";
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf") format("truetype");
-  font-weight: 200;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ClashDisplay-Light";
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ClashDisplay-Regular";
-  src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "ClashDisplay-Medium";
   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2") format("woff2"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.woff") format("woff"), url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Medium.ttf") format("truetype");
   font-weight: 500;
@@ -166,9 +142,39 @@ body {
   text-shadow: 2px 2px 3px #3FC72F;
 }
 
-.container__form {
+.container__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15%;
+}
+
+.container__about aside {
+  margin: auto;
+  width: 60%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container__contact {
+  margin-top: 10%;
+}
+
+.container__contact-description {
   margin: auto;
   margin-top: 10%;
+}
+
+.container__form {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,6 +198,27 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container__form-input input {
+  border-radius: 15px;
+  border: none;
+  color: black;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container__form-input textarea {
+  border-radius: 15px;
+  border: none;
+  color: black;
+  padding: 8px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .container__form button {
@@ -204,12 +231,19 @@ body {
   background: none;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .container__form button:hover {
   background: black;
   -webkit-box-shadow: 2px 2px 15px 1px #8b8b8b;
           box-shadow: 2px 2px 15px 1px #8b8b8b;
+}
+
+@media only screen and (min-width: 600px) {
+  .container__form {
+    width: 60%;
+  }
 }
 
 .button-menu {
@@ -524,5 +558,57 @@ html {
 #nav-icon3.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  padding-top: 40%;
+}
+
+nav .line {
+  height: 2px;
+  background-color: white;
+  margin: 0;
+  margin-bottom: 10%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-shadow: 1px 1px 2px black;
+  color: black;
+}
+
+nav h2:hover {
+  text-shadow: 0px 0px 1px white;
+  color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  nav {
+    padding-top: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

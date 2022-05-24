@@ -44,14 +44,14 @@
     <section class="container">
         <div class=" container__intro">
             <div>
-                <h2>Project</h2>
+                <h2 id="project">Project</h2>
             </div>
         </div> 
-        <div class="container container__project">
+        <div class="container__project">
             <div class="icon-carousel">
                 <i class="fas fa-chevron-left"></i>
             </div>
-            <!----------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
             <!--Fisheye-->
                 <article class="component__project project">
                     
@@ -72,7 +72,7 @@
                         </div>
                     </aside>
                 </article>
-                <!----------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
                 <!--Reservia-->
                 <article class="component__project project hidden">
                     <div class="component__project box-img">
@@ -92,7 +92,7 @@
                         </div>
                     </aside>
                 </article>
-                <!----------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
                 <!--Les Petits Plats-->
                 <article class="component__project project hidden">
                     <div class="component__project box-img">
@@ -112,7 +112,7 @@
                         </div>
                     </aside>
                 </article>
-                <!----------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
                 <!--Oh My Food-->
                 <article class="component__project project hidden">
                     <div class="component__project box-img">
@@ -132,7 +132,7 @@
                         </div>
                     </aside>
                 </article>
-                <!----------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
                 <!--Game On-->
                 <article class="component__project project hidden">
                     <div class="component__project box-img">
@@ -152,53 +152,60 @@
                         </div>
                     </aside>
                 </article>
-                <!----------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
             <div class="icon-carousel">
                 <i class="fas fa-chevron-right"></i>
             </div>
         </div>
-        <!----------------------------------------------------------------->
+ <!------------------------------------------------------------------------------------------------------>
         <!--About-->
-        <section class="container">
+        <section class="container container__about">
             <div class="container__intro">
-                <h2>About me</h2>
+                <h2 id="about">About me</h2>
             </div>
-            <div class="container">
+            <div>
                 <div class="box-profil">
                     <img  src="./images/profile/Rayan_(Crimages).JPG" alt="Portrait de Rayan">
                 </div>
-                <aside class=" component__project-aside">
+                <aside>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, harum accusantium saepe veniam sit ex dolore doloremque esse architecto beatae iure!
                     </p>
                 </aside>
             </div>
         </section>
-        <!----------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------>
         <!--Contact-->
-        <section class="container">
+        <section class="container container__contact">
             <div class="container__intro">
-                <h2>Contact</h2>
+                <h2 id="contact">Contact</h2>
             </div>
-            <div class="container container__form">
-                <form class="container container__form" action="https://formspree.io/f/mqknneeg" method="POST">
-                    <div class="container__form-input">
-                        <label for="email">Your email:</label>
-                        <input type="email" name="email">
-                    </div>
-                    <div class="container__form-input">
-                        <label for="">Your message:</label>
-                        <textarea name="message"></textarea>
-                    </div>
-                    <!-- your other form fields go here -->
-                    <button type="submit">Send</button>
-                </form>
+            <div class="container__contact-description">
+                <div class="container__form">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odit autem aut quidem quae, illo dolores voluptas velit omnis adipisci nemo delectus labore aliquid quis fuga suscipit incidunt, in animi.
+                    </p>
+                </div>
+                <div >
+                    <form class="container__form" action="https://formspree.io/f/mqknneeg" method="POST">
+                        <div class="container__form-input">
+                            <label for="email">Your email:</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="container__form-input">
+                            <label for="message">Your message:</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
             </div>
         </section>
-        <!----------------------------------------------------------------->
-        <!--Contact-->
+<!------------------------------------------------------------------------------------------------------>
+        <!--Socials-->
         <footer class="container">
-            <div class="container container__social">
+            <div class="container__social">
                 <div>
                     <a href="https://github.com/Guts6667">
                         <i class="fab fa-github github"></i>
@@ -221,13 +228,32 @@
                 </div>
             </div>
         </footer>
-        
+<!------------------------------------------------------------------------------------------------------>
 <!--Navigation menu-->
     <nav class="hidden">
-
+        <div>
+            <a href="#project" class="navOption">
+                <h2>Project</h2>
+            </a>
+        </div>
+        <div class="line"></div>
+        <div>
+            <a href="#about" class="navOption">
+                <h2>About me</h2>
+            </a>
+        </div>
+        <div class="line"></div>
+        <div>
+            <a href="#contact" class="navOption">
+                <h2>Contact</h2>
+            </a>
+        </div>
+        <div class="line"></div>
     </nav>
+
     <script src="./utils/var.js"></script>
     <script src="./utils/menu.js"></script>
     <script src="./utils/carousel.js"></script>
+    <script src="./utils/form.js"></script>
 </body>
 </html>
