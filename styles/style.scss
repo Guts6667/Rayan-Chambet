@@ -11,45 +11,6 @@
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: "ClashDisplay-Extralight";
-//   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff2")
-//       format("woff2"),
-//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.woff")
-//       format("woff"),
-//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Extralight.ttf")
-//       format("truetype");
-//   font-weight: 200;
-//   font-display: swap;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: "ClashDisplay-Light";
-//   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff2")
-//       format("woff2"),
-//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.woff")
-//       format("woff"),
-//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Light.ttf")
-//       format("truetype");
-//   font-weight: 300;
-//   font-display: swap;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: "ClashDisplay-Regular";
-//   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff2")
-//       format("woff2"),
-//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.woff")
-//       format("woff"),
-//     url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Regular.ttf")
-//       format("truetype");
-//   font-weight: 400;
-//   font-display: swap;
-//   font-style: normal;
-// }
-
 @font-face {
   font-family: "ClashDisplay-Medium";
   src: url("../fonts/ClashDisplay_Complete/WEB/fonts/ClashDisplay-Bold.woff2")
@@ -164,8 +125,6 @@ body {
       padding: 10px;
       
       &:hover {
-        // text-shadow: 2px 2px 15px 1px #8b8b8b;
-        // text-shadow: 2px 2px 3px  #558ABB;
         font-size: 30px;
       }
     }
@@ -234,16 +193,22 @@ body {
         color: black;
         padding: 8px;
         font-size: 16px;
-        font-weight: 500;;
+        font-weight: 500;
+        background: #ebebeb;
+        box-shadow: inset 7px 7px 14px #949494,
+            inset -7px -7px 14px #ffffff
       }
       textarea{
         border-radius: 15px;
         border: none;
         color: black;
         padding: 8px;
-        height: 50px;
+        height: 80px;
         font-size: 16px;
         font-weight: 500;;
+        background: #ebebeb;
+        box-shadow: inset 7px 7px 14px #949494,
+        inset -7px -7px 14px #ffffff
       }
      
     }

@@ -11,7 +11,7 @@ const slideLeft = (project) => {
                 
                 // La box suivante a un index supérieur à la box actuelle
                 nextProject = currentProjectIndex +1;
-               console.log(nextProject)
+            //    console.log(nextProject)
                return nextProject
             }
         })  
@@ -22,7 +22,7 @@ const slideLeft = (project) => {
         }
         else{
             // Sinon je reviens à la première box => Permet de créer un carousel
-            console.log(projects[0])
+            // console.log(projects[0])
             projects[0].classList.remove('hidden');
             
         }
@@ -41,7 +41,7 @@ const slideRight = (project) => {
                 
                 // La box suivante a un index supérieur à la box actuelle
                 nextProject = currentProjectIndex -1;
-               console.log(nextProject)
+            //    console.log(nextProject)
                return nextProject
             }
         })  

@@ -14,6 +14,7 @@ const emailVerification = () => {
     }
      else{
       email.closest(".formData").setAttribute("data-error-visible", false);
+      email.value === ""
       return true;
      }
   }
@@ -30,6 +31,7 @@ const emailVerification = () => {
       }
       else{
         textArea.closest(".formData").setAttribute("data-error-visible", false);
+        textArea.value ===""
         return true;
       }
   }
@@ -45,4 +47,3 @@ const emailVerification = () => {
         console.log('Good job!')
     }
   }
-

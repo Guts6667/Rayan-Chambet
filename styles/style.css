@@ -213,6 +213,9 @@ body {
   padding: 8px;
   font-size: 16px;
   font-weight: 500;
+  background: #ebebeb;
+  -webkit-box-shadow: inset 7px 7px 14px #949494, inset -7px -7px 14px #ffffff;
+          box-shadow: inset 7px 7px 14px #949494, inset -7px -7px 14px #ffffff;
 }
 
 .container__form-input textarea {
@@ -220,9 +223,12 @@ body {
   border: none;
   color: black;
   padding: 8px;
-  height: 50px;
+  height: 80px;
   font-size: 16px;
   font-weight: 500;
+  background: #ebebeb;
+  -webkit-box-shadow: inset 7px 7px 14px #949494, inset -7px -7px 14px #ffffff;
+          box-shadow: inset 7px 7px 14px #949494, inset -7px -7px 14px #ffffff;
 }
 
 .container__form button {
