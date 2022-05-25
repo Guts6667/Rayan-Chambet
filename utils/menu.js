@@ -10,7 +10,8 @@ navicon.addEventListener('click', () =>{
 } )
 
 navOptions.forEach(navOption => {
-    navOption.addEventListener('click', () => {
+    navOption.addEventListener('click', (e) => {
+        e.preventDefault();
         nav.classList.add('hidden')
         if(nav.classList.contains('hidden') && navicon.classList.contains('open')){
             navicon.classList.toggle('open');

@@ -173,6 +173,10 @@ body {
   margin-top: 10%;
 }
 
+.container__contact-description p {
+  text-align: center;
+}
+
 .container__form {
   margin: auto;
   display: -webkit-box;
@@ -238,6 +242,11 @@ body {
   background: black;
   -webkit-box-shadow: 2px 2px 15px 1px #8b8b8b;
           box-shadow: 2px 2px 15px 1px #8b8b8b;
+}
+
+.container__form strong {
+  color: #62825d;
+  font-weight: 500;
 }
 
 @media only screen and (min-width: 600px) {
@@ -610,5 +619,27 @@ nav h2:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.formData[data-error]::after {
+  content: attr(data-error);
+  font-size: 0.4em;
+  color: #e54858;
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-align: right;
+  line-height: 0.3;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.formData[data-error-visible="true"]::after {
+  opacity: 1;
+}
+
+.formData[data-error-visible="true"] .text-control {
+  border: 2px solid #e54858;
 }
 /*# sourceMappingURL=style.css.map */

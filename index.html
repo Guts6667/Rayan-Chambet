@@ -183,21 +183,24 @@
             <div class="container__contact-description">
                 <div class="container__form">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odit autem aut quidem quae, illo dolores voluptas velit omnis adipisci nemo delectus labore aliquid quis fuga suscipit incidunt, in animi.
+                        I'm curious about your <strong>PROJECT</strong>!<br>
+                        Add your <strong>EMAIL</strong> and a some infos about your needs & wishes in the form below.<br>
+                        Or let me know what <strong>DATE</strong> would suit you so we can schedule a <strong>MEETING</strong>.
                     </p>
                 </div>
                 <div >
                     <form class="container__form" action="https://formspree.io/f/mqknneeg" method="POST">
-                        <div class="container__form-input">
+                        <div class="container__form-input formData">
                             <label for="email">Your email:</label>
-                            <input type="email" name="email">
+                            <input type="email" name="email" id="email">
                         </div>
-                        <div class="container__form-input">
+                        <div class="container__form-input formData">
                             <label for="message">Your message:</label>
-                            <textarea name="message"></textarea>
+                            <textarea name="message" id="message" minlength="25"></textarea>
                         </div>
+                        <input type="hidden" name="_next" value="https://guts6667.github.io/Rayan-Chambet/" />
                         <!-- your other form fields go here -->
-                        <button type="submit">Send</button>
+                        <button type="submit" id="formBtn">Send</button>
                     </form>
                 </div>
             </div>
