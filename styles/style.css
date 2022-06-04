@@ -165,12 +165,12 @@ body {
 }
 
 .container__contact {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .container__contact-description {
   margin: auto;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 .container__contact-description p {
@@ -179,6 +179,7 @@ body {
 
 .container__form {
   margin: auto;
+  margin-bottom: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -188,6 +189,14 @@ body {
           flex-direction: column;
   text-align: left;
   width: 90%;
+}
+
+.container__form .text {
+  padding: 4%;
+  border: solid 1px white;
+  -webkit-box-shadow: 4px 4px  white;
+          box-shadow: 4px 4px  white;
+  margin-bottom: 20px;
 }
 
 .container__form-input {
@@ -348,10 +357,10 @@ body {
 
 .component__project-aside {
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
   height: 250px;
-  width: 80%;
+  width: 100%;
   text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -373,13 +382,22 @@ body {
   color: #62825d;
 }
 
+.component__project-aside p {
+  margin-top: 10px;
+  padding: 4%;
+  border: solid 1px white;
+  -webkit-box-shadow: 4px 4px  white;
+          box-shadow: 4px 4px  white;
+}
+
 .component__project-aside .button-link {
   width: 75%;
   height: 45px;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   text-align: center;
-  border: 1px solid #5b454570;
-  border-radius: 30px;
+  border: solid 1px white;
+  -webkit-box-shadow: -7px 7px white;
+          box-shadow: -7px 7px white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -389,8 +407,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 2px 2px 15px -2px #8b8b8b;
-          box-shadow: 2px 2px 15px -2px #8b8b8b;
 }
 
 .component__project-aside .button-link button {
@@ -408,15 +424,66 @@ body {
 }
 
 .component__project-aside .button-link:hover {
-  background: black;
-  -webkit-box-shadow: 2px 2px 15px 1px #8b8b8b;
-          box-shadow: 2px 2px 15px 1px #8b8b8b;
+  -webkit-animation: website-btn 0.26s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
+          animation: website-btn 0.26s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
+}
+
+@-webkit-keyframes website-btn {
+  0% {
+    -webkit-box-shadow: -7px 7px white;
+            box-shadow: -7px 7px white;
+  }
+  100% {
+    -webkit-box-shadow: -2px 2px white;
+            box-shadow: -2px 2px white;
+  }
+}
+
+@keyframes website-btn {
+  0% {
+    -webkit-box-shadow: -7px 7px white;
+            box-shadow: -7px 7px white;
+  }
+  100% {
+    -webkit-box-shadow: -2px 2px white;
+            box-shadow: -2px 2px white;
+  }
+}
+
+.component__project-aside .button-link:hover + div > p {
+  -webkit-animation: legend 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
+          animation: legend 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) forwards;
+}
+
+@-webkit-keyframes legend {
+  0% {
+    -webkit-box-shadow: 4px 4px  white;
+            box-shadow: 4px 4px  white;
+  }
+  100% {
+    -webkit-box-shadow: 4px -4px white;
+            box-shadow: 4px -4px white;
+  }
+}
+
+@keyframes legend {
+  0% {
+    -webkit-box-shadow: 4px 4px  white;
+            box-shadow: 4px 4px  white;
+  }
+  100% {
+    -webkit-box-shadow: 4px -4px white;
+            box-shadow: 4px -4px white;
+  }
 }
 
 .component__project-aside .button-link:active {
-  -webkit-box-shadow: 2px 2px 15px -2px #62825d;
-          box-shadow: 2px 2px 15px -2px #62825d;
-  border: #62825d;
+  background-color: white;
+  border: solid 1px black;
+}
+
+.component__project-aside .button-link:active h3 {
+  color: black;
 }
 
 @media only screen and (min-width: 600px) {
@@ -484,6 +551,7 @@ html {
 .icon-carousel {
   width: 30%;
   font-size: 30px;
+  padding-bottom: 200px;
 }
 
 .icon-carousel .fas {

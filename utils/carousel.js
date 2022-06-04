@@ -67,4 +67,12 @@ chevronRight.addEventListener('click', (e) => {
     e.preventDefault();
     slideRight();
 })
+document.addEventListener('keydown', (e) => {
+    e.preventDefault()
+    if(e.code === 'ArrowLeft'){slideLeft()};
+    if(e.code === 'ArrowRight'){slideRight()};
+})
+
+
+    
 

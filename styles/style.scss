@@ -163,10 +163,10 @@ body {
     }
   }
   &__contact{
-    margin-top: 10%;
+    margin-top: 15%;
     &-description{
       margin: auto;
-      margin-top: 10%;
+      margin-top: 20%;
       p{
         text-align: center;
       }
@@ -174,10 +174,17 @@ body {
   }
   &__form{
     margin: auto;
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 90%;
+    .text{
+      padding: 4%;
+        border: solid 1px white;
+        box-shadow: 4px 4px  white;
+        margin-bottom: 20px;
+    }
 
 
     &-input{
@@ -312,10 +319,10 @@ body {
     justify-content: center;
     &-aside {
       margin: auto;
-      margin-top: 20px;
+      margin-top: 50px;
       margin-bottom: 20px;
       height: 250px;
-      width: 80%;
+      width: 100%;
       text-align: center;
       flex-direction: column;
       display: flex;
@@ -328,17 +335,23 @@ body {
         color: $green;
       }
 
+      p{
+        margin-top: 10px;
+        padding: 4%;
+        border: solid 1px white;
+        box-shadow: 4px 4px  white;
+      }
+
       .button-link {
         width: 75%;
         height: 45px;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         text-align: center;
-        border: 1px solid #5b454570;
-        border-radius: 30px;
+        border: solid 1px white;
+        box-shadow: -7px 7px white;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 2px 2px 15px -2px #8b8b8b;
 
         button {
           background: none;
@@ -352,13 +365,38 @@ body {
           text-decoration: none;
         }
         &:hover {
-          background: black;
-          box-shadow: 2px 2px 15px 1px #8b8b8b;
+          animation: website-btn 0.26s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
+          @keyframes website-btn {
+            0% {
+              box-shadow: -7px 7px white;
+            }
+            100% {
+              box-shadow: -2px 2px white;
+            }
+          }
+          + div > p{
+            animation: legend 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) forwards;
+            @keyframes legend {
+              0% {
+                box-shadow: 4px 4px  white;
+              }
+              100% {
+                // border: none;
+                // border-radius: 8px;
+                // box-shadow: 0px 0px 8px 0px white;
+                box-shadow: 4px -4px white;
+              }
+            }
+          }
         }
         &:active {
-          box-shadow: 2px 2px 15px -2px $green;
-          border: $green;
+          background-color: white;
+          border: solid 1px black;
+          h3{
+            color: black;
+          }
         }
+        
       }
       @media only screen and (min-width: 600px) {
         .box-img {
@@ -424,7 +462,7 @@ html {
 .icon-carousel {
   width: 30%;
   font-size: 30px;
-  // text-align: center;
+  padding-bottom: 200px;
   .fas {
     color: #bfbdbd33;
     opacity: 0.6;
