@@ -162,6 +162,10 @@ body {
   width: 60%;
   margin-top: 50px;
   text-align: center;
+  padding: 4%;
+  border: solid 1px white;
+  -webkit-box-shadow: 4px 4px white;
+          box-shadow: 4px 4px white;
 }
 
 .container__contact {

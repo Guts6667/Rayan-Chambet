@@ -74,5 +74,43 @@ document.addEventListener('keydown', (e) => {
 })
 
 
-    
+// ---------------------------------------------------------------------------------
+
+
+
+let clientX, clientY;
+
+containerProject.addEventListener('touchstart', (e) => {
+  // Cache the client X/Y coordinates
+  clientX = e.touches[0].clientX;
+  clientY = e.touches[0].clientY;
+
+//   console.log(clientX);
+//   console.log(clientY);
+}, false);
+
+containerProject.addEventListener('touchend', (e) => {
+  let deltaX, deltaY;
+
+  // Compute the change in X and Y coordinates.
+  // The first touch point in the changedTouches
+  // list is the touch point that was just removed from the surface.
+  deltaX = e.changedTouches[0].clientX - clientX;
+  deltaY = e.changedTouches[0].clientY - clientY;
+
+  console.log(clientX);
+  console.log(deltaX);
+  if(clientX < deltaX && deltaX !== 0){
+      slideRight();
+  }
+  else if(clientX > deltaX && deltaX !== 0){
+      slideLeft();
+  } 
+
+//   console.log(deltaX);
+//   console.log(deltaY);
+
+  // Process the data ...
+}, false);
+
 

@@ -10,3 +10,4 @@ const textArea = document.querySelector('#message');
 const formBtn = document.querySelector('#formBtn');
 const form = document.querySelector('form');
 const regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+const containerProject = document.querySelector('#containerProject');
