@@ -157,19 +157,24 @@ body {
     margin-bottom: 15%;
     aside{
       margin: auto;
-      width: 60%;
+      width: 80%;
       margin-top: 50px;
       text-align: center;
       padding: 4%;
       border: solid 1px white;
       box-shadow: 4px 4px white;
     }
+    @media only screen and (min-width: 600px){
+      aside{
+       width: 50%;
+      }
+    }
   }
   &__contact{
     margin-top: 15%;
     &-description{
       margin: auto;
-      margin-top: 20%;
+      margin-top: 10%;
       p{
         text-align: center;
       }

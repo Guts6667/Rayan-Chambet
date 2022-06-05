@@ -159,7 +159,7 @@ body {
 
 .container__about aside {
   margin: auto;
-  width: 60%;
+  width: 80%;
   margin-top: 50px;
   text-align: center;
   padding: 4%;
@@ -168,13 +168,19 @@ body {
           box-shadow: 4px 4px white;
 }
 
+@media only screen and (min-width: 600px) {
+  .container__about aside {
+    width: 50%;
+  }
+}
+
 .container__contact {
   margin-top: 15%;
 }
 
 .container__contact-description {
   margin: auto;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .container__contact-description p {
