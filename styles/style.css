@@ -363,7 +363,7 @@ body {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 20px;
-  height: 300px;
+  height: 250px;
   width: 100%;
   text-align: center;
   -webkit-box-orient: vertical;
@@ -396,7 +396,7 @@ body {
 
 .component__project-aside .button-link {
   width: 75%;
-  height: 45px;
+  min-height: 45px;
   margin-bottom: 5%;
   text-align: center;
   border: solid 1px white;
