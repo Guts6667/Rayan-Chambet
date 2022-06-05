@@ -67,11 +67,13 @@ chevronRight.addEventListener('click', (e) => {
     e.preventDefault();
     slideRight();
 })
-document.addEventListener('keydown', (e) => {
-    e.preventDefault()
-    if(e.code === 'ArrowLeft'){slideLeft()};
-    if(e.code === 'ArrowRight'){slideRight()};
-})
+
+// Fix conflict between key navigation and form (problem with keydown)
+// document.addEventListener('keydown', (e) => {
+//     e.preventDefault()
+//     if(e.code === 'ArrowLeft'){slideLeft()};
+//     if(e.code === 'ArrowRight'){slideRight()};
+// })
 
 
 // ---------------------------------------------------------------------------------
